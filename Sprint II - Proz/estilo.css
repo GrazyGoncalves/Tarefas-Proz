@@ -1,0 +1,158 @@
+* {
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+:root {
+--color-prim: #1BC7BC;
+--color-secund: #9B8B8B;
+--color-terc: #ECE7E7;
+--color-quart: #0F3BD8;
+}
+header {
+    height: 100vh;
+    background: url(img/fundo.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+header,
+.main-section
+footer{
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+}
+
+header img{
+    display: block;
+    margin: 1rem auto;
+}
+
+header nav{
+    display: grid;
+  
+}
+
+nav a {
+    color:#ECE7E7;
+    font-size: 1.25rem;
+    padding: .5rem;
+    text-decoration: none;
+    text-align: right;
+}
+
+.button {
+background-color: red;;
+/* border: 1px transparent black; */
+color: white;
+display: block;
+font-size: 18px;
+padding: 1rem 1rem;
+max-width: 5rem;
+text-align: center;
+text-decoration: none;
+border-radius: 25px;
+}
+
+body{
+background: linear-gradient(90deg, #93AAFB 0%, #1BC7BC 100%);
+/* padding: 0 1rem; */
+}
+
+.mt-1 {
+margin-top: 1rem;
+}
+
+.mt-2{
+margin-top: 2rem;
+    }
+
+.mb-1{
+margin-bottom: 1rem;
+ }
+
+.mb-2{
+ margin-bottom: 2rem;
+ }
+
+ .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ #container{
+margin: auto;
+display:flex;
+width: max-content;
+border: 2px solid black;
+ }
+ 
+
+ /*responsividade*/
+
+ @media screen and (min-width: 40rem) {
+    header nav{
+    display: block;
+    text-align: center;
+    }
+
+    @media screen and (min-width: 48rem) {
+    header div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: row;
+    
+
+    }
+ }
+}
+
+
+
+
+.viagens-em-grupo {
+    float: left;
+    width: 50%;
+    background: url(img/viagens-em-grupo.jpg) no-repeat center center;
+    min-height: 500px;
+    padding: 100px 10px;
+
+}
+
+.viagens-em-grupo > * {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.viagens-em-grupo button {
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+.viagens-em-grupo-2 {
+    float: right;
+    background: url(img/Monte\ Roraima.png) no-repeat center center;
+   
+
+}
+
+.viagens-em-grupo-2 > * {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.viagens-em-grupo-2 button {
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
